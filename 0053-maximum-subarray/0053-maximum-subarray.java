@@ -7,11 +7,8 @@ class Solution {
         {
             sum= sum+nums[i];
             maxi= Math.max(sum,maxi);
-            if(sum>maxi)
-            {
-                maxi=sum;
-            }
-            else if (sum<0)
+            
+            if (sum<0)
             {
                 sum=0;
             }
